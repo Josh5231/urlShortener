@@ -21,7 +21,7 @@ router.get("/new/*",(req,res)=>{
       {
         if (err) { throw err; }
         var col = db.collection("urls");
-        var output = { original_url:addr, short_url:"https://url-shortener-josh5231.c9users.io/", lookup:0 }; //setup data
+        var output = { original_url:addr, short_url:"https://mins.herokuapp.com/", lookup:0 }; //setup data
         col.find().count((err,cnt)=>{
            if(err){ throw err; }
            output.short_url+=cnt;

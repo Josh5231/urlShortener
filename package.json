@@ -4,12 +4,25 @@
   "description": "url shortener",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Josh Sanders",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
     "mongodb": "^2.2.12"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josh5231/urlShortener.git"
+  },
+  "keywords": [
+    "urlshortener"
+  ],
+  "bugs": {
+    "url": "https://github.com/Josh5231/urlShortener/issues"
+  },
+  "homepage": "https://github.com/Josh5231/urlShortener#readme"
 }
