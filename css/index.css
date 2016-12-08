@@ -1,0 +1,16 @@
+.Header{
+    text-align:center;
+    border: 1px solid black;
+}
+
+.infoBox{
+ text-align: center;
+ width:60%;
+ margin:auto;
+}
+
+.util{
+    text-align: center;
+    border: 1px solid #222;
+    width:auto;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>URL Shortener</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="./js/index.js"></script>
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+        <div class="Header">
+            <h1>URL Shortener Microservice</h1>
+            <h6>By: Josh Sanders</h6>
+        </div>
+        <div class="infoBox">
+            <p>This microservice is used to shorten urls.</p>
+            <h3>Examples of how to use this service:</h3>
+            <p>To setup a URL: https://url-shortener-josh5231.c9users.io/new/<b><i>http://foobar.com</i></b></p>
+            <p>(This will return: { "original_url":"http://foobar.com", "short_url":"https://little-url.herokuapp.com/8170" } )</p>
+            <br>
+            <p>Then use the value supplied as "short_url": <i>https://little-url.herokuapp.com/8170</i> </p>
+        </div>
+        <div class="util">
+            <p>You can also use this form:</p>
+            <label>Your URL: </label><input type="text" id="addrInput"></input><button onClick="handleClick()">Go</button>
+             <br>
+            <div class="output"></div>
+            <br>
+        </div>
+    </body>
+</html>
